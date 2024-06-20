@@ -7,7 +7,11 @@ ROV ligero para fines educativos. Pensado para funcionar con 3 motores, controla
 Light ROV system for educational purposes. 3 Motors, dual H-Bridge drive and JoyC Controls.
 
 ##Authors
+
 **Urpekari Proiektua - 2024**
+
 EHU - Bilboko ingeniaritza eskola
+
 UPV - Escuela de ingeinería de Bilbao
+
 University of the Basque Country - Bilbao school of engineering
