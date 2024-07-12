@@ -17,18 +17,20 @@ int main(){
   
   struct outputs control;
   
+  //NOTE: LOOK AT SERVO.cpp FOR AN EXPLANATION ON WHY THIS IS NECESSARY
+  
   //These signals control the Enable (E) pins on the motor drivers
   SERVO mot0(10, 0, maxPWM);
   //We CAN'T use pull downs like this for output pins, for whatever reason they just don't work.
-  //Add a physical Pull down resitor (At MOST 330 Ohm) to all the PWM channels
+  //Add a physical Pull down resitor (At MOST 330 Ohm! I know, it's weird. I don't get it either!) to all the PWM channels
   //gpio_pull_down(10);
   SERVO mot1(12, 0, maxPWM);
   //We CAN'T use pull downs like this for output pins, for whatever reason they just don't work.
-  //Add a physical Pull down resitor (At MOST 330 Ohm) to all the PWM channels
+  //Add a physical Pull down resitor (At MOST 330 Ohm! I know, it's weird. I don't get it either!) to all the PWM channels
   //gpio_pull_down(12);
   SERVO mot2(14, 0, maxPWM);
   //We CAN'T use pull downs like this for output pins, for whatever reason they just don't work.
-  //Add a physical Pull down resitor (At MOST 330 Ohm) to all the PWM channels
+  //Add a physical Pull down resitor (At MOST 330 Ohm! I know, it's weird. I don't get it either!) to all the PWM channels
   //gpio_pull_down(14);
   
   //These signals control the Direction (M) pins on the motor drivers
